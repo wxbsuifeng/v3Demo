@@ -35,7 +35,6 @@
       const refData = toRefs(data);
 
       const appStyle = computed(() => {
-        console.log(data.viewScale);
         return {
           width: `${data.viewSize.width}px`,
           height: `${data.viewSize.height}px`,
@@ -69,7 +68,6 @@
 <style scoped>
 .fit-layout {
   transform-origin: left top;
-  background: lightgray;
   height: 100%;
   width: 100%;
 }

@@ -1,29 +1,26 @@
 <template>
-  <div>add</div>
+  <div>
+		add{{count}}
+		<p style="cursor: pointer; color: blue" @click="handleToHome">back</p>
+	</div>
 </template>
 
-<script>
-	import { reactive, toRefs, onBeforeMount, onMounted } from 'vue'
+<script setup="props">
+	import { ref, onBeforeMount, onMounted } from 'vue'
+	import router from '../../route/index'
 
-	export default {
-		name: 'add',
-		setup() {
-			const data = reactive({
+	let count = ref(15);
 
-			})
-			const refData = toRefs(data);
+	onBeforeMount(() => {
+		console.log('before mount');
+	})
 
-			onBeforeMount(() => {
-			})
+	onMounted(() => {
+	})
 
-			onMounted(() => {
-			})
-
-			return {
-				...refData,
-			}
-		}
-	};
+	const handleToHome = () => {
+		router.push('/home');
+	}
 </script>
 <style scoped>
 </style>
