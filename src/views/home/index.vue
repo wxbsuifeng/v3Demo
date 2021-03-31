@@ -158,26 +158,6 @@
 						date: '2002 10-24',
 						name: 'zhangsan',
 						address: 'lisi'
-					},
-					{
-						date: '2002 10-24',
-						name: 'zhangsan',
-						address: 'lisi'
-					},
-					{
-						date: '2002 10-24',
-						name: 'zhangsan',
-						address: 'lisi'
-					},
-					{
-						date: '2002 10-24',
-						name: 'zhangsan',
-						address: 'lisi'
-					},
-					{
-						date: '2002 10-24',
-						name: 'zhangsan',
-						address: 'lisi'
 					}
 				]
 			})
@@ -214,6 +194,5 @@
 		width: 100%;
 		height: 1340px;	
 		box-sizing: border-box;
-		background-color: lightsteelblue;
 	}
 </style>

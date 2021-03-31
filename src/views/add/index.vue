@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
 		add{{count}}
 		<p style="cursor: pointer; color: blue" @click="handleToHome">back</p>
 	</div>
@@ -23,4 +23,8 @@
 	}
 </script>
 <style scoped>
+.container {
+	width: 100%;
+	height: 100%;
+}
 </style>
